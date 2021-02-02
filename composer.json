@@ -1,6 +1,6 @@
 {
-  "name": "taofei-pro/yii2-mysql-json",
-  "description": "extend yii2-ActiceRecord And yii2-ActiveQuery with use mysql json make simple.",
+  "name": "tf-pro/yii2-mysql-json",
+  "description": "extend yii2-ActiveRecord And yii2-ActiveQuery with use mysql json make simple.",
   "keywords": [
     "yii2",
     "extension",
@@ -14,7 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "TaoFeiPro\\Yii2MysqlJson\\": "src"
+      "TFPro\\Yii2MysqlJson\\": "src"
     }
   },
   "authors": [

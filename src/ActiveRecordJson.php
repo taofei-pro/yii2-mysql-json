@@ -2,7 +2,7 @@
 /**
  * ActiveRecordJson
  */
-namespace TaoFeiPro\Yii2MysqlJson;
+namespace TFPro\Yii2MysqlJson;
 
 use Yii;
 use yii\db\ActiveRecord;

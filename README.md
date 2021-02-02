@@ -1,17 +1,17 @@
 # Yii2 Mysql Json
-The extension yii2-ActiceRecord And yii2-ActiveQuery with use mysql json make simple.
+The extension yii2-ActiveRecord And yii2-ActiveQuery with use mysql json make simple.
 
 ## Installation
 The preferred way to install this extension is through composer.
 
 Either run
 
-> composer require --prefer-dist taofei-pro/yii2-mysql-json
+> composer require tf/yii2-mysql-json
 
 
 or add
 
-> "taofei-pro/yii2-mysql-json": "~1.0"
+> "tf-pro/yii2-mysql-json": "~1.0"
 
 
 to the require section of your `composer.json`.
@@ -20,7 +20,7 @@ to the require section of your `composer.json`.
 
 Your Model file must extend this extension class；
 ```
-use TaoFeiPro\Yii2MysqlJson\ActiveRecordJson；
+use TFPro\Yii2MysqlJson\ActiveRecordJson；
 
 class YourModel extent ActiveRecordJson
 {
