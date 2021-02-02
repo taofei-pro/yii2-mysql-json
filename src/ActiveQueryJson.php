@@ -132,7 +132,7 @@ class ActiveQueryJson extends ActiveQuery
 
         if (count($columns) == 0) {
             if ($jsonColumn == true) {
-                throw new InvalidArgumentException(get_class($this) . ' has no json column "' . $column . '".');
+                throw new \InvalidArgumentException(get_class($this) . ' has no json column "' . $column . '".');
             }
             $jsonColumn == '';
         } else {

@@ -19,7 +19,7 @@ class ActiveRecordJson extends ActiveRecord
      * @return ActiveQueryJson|object
      * @throws \yii\base\InvalidConfigException
      */
-    public function findJson()
+    public static function findJson()
     {
         return Yii::createObject(ActiveQueryJson::class, [get_called_class()]);
     }
